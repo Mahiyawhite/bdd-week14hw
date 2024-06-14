@@ -1,7 +1,7 @@
-package com.visa.utility;
+package com.tutorialninja.utility;
 
 import com.google.common.base.Function;
-import com.visa.driverfactory.ManageDriver;
+import com.tutorialninja.driverfactory.ManageDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -15,8 +15,6 @@ import java.util.Date;
 import java.util.List;
 
 public class Utility extends ManageDriver {
-
-
 
     /*Utility Class extends to ManageBrowser for the driver to finding locators
      *All common methods are fixed in the utility Class.
@@ -314,7 +312,7 @@ public class Utility extends ManageDriver {
      * This method will take screenshot
      */
     public static void takeScreenShot() {
-        String filePath = System.getProperty("user.dir") + "/src/main/java/com/visa/demo/screenshots/";
+        String filePath = System.getProperty("user.dir") + "/src/main/java/com/nopcommerce/demo/screenshots/";
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File scr1 = screenshot.getScreenshotAs(OutputType.FILE);
         try {
@@ -335,7 +333,7 @@ public class Utility extends ManageDriver {
         File source = ts.getScreenshotAs(OutputType.FILE);
 
         // After execution, you could see a folder "FailedTestsScreenshots" under screenshot folder
-        String destination = System.getProperty("user.dir") + "/src/main/java/com/visa/screenshots/" + screenshotName + dateName + ".png";
+        String destination = System.getProperty("user.dir") + "/src/main/java/com/nopcommerce/screenshots/" + screenshotName + dateName + ".png";
         File finalDestination = new File(destination);
         try {
             FileUtils.copyFile(source, finalDestination);
@@ -345,8 +343,9 @@ public class Utility extends ManageDriver {
         return destination;
     }
 
-    // *Screenshot methods
-
+    /*
+     *Screenshot methods
+     */
     public static String takeScreenShot(String fileName) {
         String filePath = System.getProperty("user.dir") + "/test-output/html/";
         TakesScreenshot screenshot = (TakesScreenshot) driver;
