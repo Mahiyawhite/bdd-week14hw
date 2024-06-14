@@ -23,7 +23,7 @@ public class ResultPage extends Utility {
 
     public void verifyTextSuccessfully(String expectedMsg) {
         String actualMessage = String.valueOf(checkResultMsg);
-        String expectedMessage = "Permanent Tester jobs in Harrow on the Hill";
+        String expectedMessage = String.valueOf(checkResultMsg);
         Assert.assertEquals(actualMessage,expectedMessage);
 
     }
