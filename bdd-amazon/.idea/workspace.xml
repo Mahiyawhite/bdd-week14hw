@@ -4,87 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3556fd6e-0cb2-4f1e-982b-8723817247ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/pages/Homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/amazon/steps/HomepageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/main/java/com/matalan/driverfactory/ManageDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/main/java/com/matalan/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/main/java/com/matalan/propertyreader/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/main/java/com/matalan/utility/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/com/matalan/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/com/matalan/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/com/matalan/steps/HomepageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/resources/extentreport/extent-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/resources/featuresfile/homepage.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bdd-matalan/src/test/java/resources/propertiesfile/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-matalan/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/driverfactory/ManageDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/driverfactory/ManageDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/propertyreader/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/propertyreader/PropertyReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utility/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/steps/HomePageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/featuresfile/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/featuresfile/homepage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/propertiesfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/propertiesfile/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/propertiesfile/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-cv-library-uk/src/test/java/com/cv/library/uk/steps/JobSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-cv-library-uk/src/test/java/com/cv/library/uk/steps/JobSearchSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/main/java/com/everyoneactive/driverfactory/ManageDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/main/java/com/everyoneactive/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/main/java/com/everyoneactive/propertyreader/PropertyReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/main/java/com/everyoneactive/utility/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/com/everyoneactive/Hooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/com/everyoneactive/runner/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/com/everyoneactive/steps/HomePageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/resources/cucumber.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/resources/extentreport/extent-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/resources/featuresfile/homepage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/resources/propertiesfile/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-everyoneactive/src/test/java/resources/propertiesfile/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/main/java/com/london/overground/driverfactory/ManageDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/main/java/com/london/overground/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/main/java/com/london/overground/propertyreader/PropertyReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/main/java/com/london/overground/utility/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/com/london/overground/Hooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/com/london/overground/runner/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/com/london/overground/steps/HomePageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/resources/cucumber.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/resources/extentreport/extent-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/resources/featuresfile/homepage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/resources/propertiesfile/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-london-overground/src/test/java/resources/propertiesfile/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/src/main/java/com/tesco/driverfactory/ManageDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/src/main/java/com/tesco/driverfactory/ManageDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/src/main/java/com/tesco/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/src/main/java/com/tesco/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/src/main/java/com/tesco/propertyreader/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/src/main/java/com/tesco/propertyreader/PropertyReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/src/test/java/com/tesco/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/src/test/java/com/tesco/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/src/test/java/com/tesco/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/src/test/java/com/tesco/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/src/test/java/com/tesco/steps/HomepageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/src/test/java/com/tesco/steps/HomepageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/src/test/java/resources/featuresfile/homepage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/src/test/java/resources/featuresfile/homepage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bdd-tesco/src/test/java/resources/propertiesfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../bdd-tesco/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
-    </list>
+    <list default="true" id="3556fd6e-0cb2-4f1e-982b-8723817247ef" name="Changes" comment="my first push to repo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,6 +104,19 @@
       <option name="presentableId" value="Default" />
       <updated>1711883623522</updated>
     </task>
+    <task id="LOCAL-00001" summary="my first push to repo">
+      <option name="closed" value="true" />
+      <created>1718466174415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718466174415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my first push to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="my first push to repo" />
   </component>
 </project>
