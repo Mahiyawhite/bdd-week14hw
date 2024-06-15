@@ -46,9 +46,9 @@ public class ManageDriver {
     }
 
     public void closeBrowser(){
-        if (driver != null){
-            driver.quit();
-        }
+       // if (driver != null){
+       //     driver.quit();
+       // }
     }
 
 }

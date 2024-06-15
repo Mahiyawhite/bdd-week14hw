@@ -1,7 +1,7 @@
-package com.amazon.utility;
+package com.matalan.utility;
 
-import com.amazon.driverfactory.ManageDriver;
 import com.google.common.base.Function;
+import com.matalan.driverfactory.ManageDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -138,34 +138,34 @@ public class Utility extends ManageDriver {
      */
     public void selectByVisibleTextFromDropDown(By by, String text) {
         WebElement dropDown = driver.findElement(by);
-        org.openqa.selenium.support.ui.Select select = new org.openqa.selenium.support.ui.Select(dropDown);
+        Select select = new Select(dropDown);
         select.selectByVisibleText(text);
     }
 
     public void selectByVisibleTextFromDropDown(WebElement element, String text) {
-        new org.openqa.selenium.support.ui.Select(element).selectByVisibleText(text);
+        new Select(element).selectByVisibleText(text);
     }
 
     /**
      * This method will select the option by value
      */
     public void selectByValueFromDropDown(By by, String value) {
-        new org.openqa.selenium.support.ui.Select(driver.findElement(by)).selectByValue(value);
+        new Select(driver.findElement(by)).selectByValue(value);
     }
 
     public void selectByValueFromDropDown(WebElement element, String value) {
-        new org.openqa.selenium.support.ui.Select(element).selectByValue(value);
+        new Select(element).selectByValue(value);
     }
 
     /**
      * This method will select the option by index
      */
     public void selectByIndexFromDropDown(By by, int index) {
-        new org.openqa.selenium.support.ui.Select(driver.findElement(by)).selectByIndex(index);
+        new Select(driver.findElement(by)).selectByIndex(index);
     }
 
     public void selectByIndexFromDropDown(WebElement element, int index) {
-        new org.openqa.selenium.support.ui.Select(element).selectByIndex(index);
+        new Select(element).selectByIndex(index);
     }
 
     /**
@@ -312,7 +312,7 @@ public class Utility extends ManageDriver {
      * This method will take screenshot
      */
     public static void takeScreenShot() {
-        String filePath = System.getProperty("user.dir") + "/src/main/java/com/amazon/demo/screenshots/";
+        String filePath = System.getProperty("user.dir") + "/src/main/java/com/matalan/demo/screenshots/";
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File scr1 = screenshot.getScreenshotAs(OutputType.FILE);
         try {
@@ -333,7 +333,7 @@ public class Utility extends ManageDriver {
         File source = ts.getScreenshotAs(OutputType.FILE);
 
         // After execution, you could see a folder "FailedTestsScreenshots" under screenshot folder
-        String destination = System.getProperty("user.dir") + "/src/main/java/com/amazon/screenshots/" + screenshotName + dateName + ".png";
+        String destination = System.getProperty("user.dir") + "/src/main/java/com/matalan/screenshots/" + screenshotName + dateName + ".png";
         File finalDestination = new File(destination);
         try {
             FileUtils.copyFile(source, finalDestination);

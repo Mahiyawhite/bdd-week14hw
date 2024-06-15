@@ -1,8 +1,8 @@
-package com.tesco;
+package com.matalan;
 
 import com.cucumber.listener.Reporter;
-import com.tesco.propertyreader.PropertyReader;
-import com.tesco.utility.Utility;
+import com.matalan.propertyreader.PropertyReader;
+import com.matalan.utility.Utility;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;

@@ -18,7 +18,7 @@ public class JobSearchSteps {
     }
 
     @When("^I click on cookie$")
-    public void iClickOnCookie() throws InterruptedException {
+    public void iClickOnCookie() {
         homePage.handleCookiesInIframe();
 
     }

@@ -1,6 +1,6 @@
-package com.tesco.pages;
+package com.matalan.pages;
 
-import com.tesco.utility.Utility;
+import com.matalan.utility.Utility;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -18,22 +18,23 @@ public class HomePage extends Utility {
     }
 
     @CacheLookup
-    @FindBy(id = "logo")
+    @FindBy(xpath = "//*[@id='__next']/div[5]/header/div/div/div[1]/div/a/picture/img")
     WebElement title;
 
     @CacheLookup
-    @FindBy(id = "onetrust-accept-btn-handler")
+    @FindBy(xpath = "//*[@id='cookie-modal-container']/section/div/div/div[2]/div/button")
     WebElement cookie;
 
     public void clickOnCookie(){
         clickOnElement(cookie);
     }
 
-
-
     public void verifyTitle(){
         String actualMessage = String.valueOf(title);
         String expectedMessage = String.valueOf(title);
         Assert.assertEquals(actualMessage,expectedMessage);
     }
+
+
+
 }

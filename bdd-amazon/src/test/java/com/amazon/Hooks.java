@@ -9,8 +9,8 @@ import cucumber.api.java.Before;
 
 import java.io.IOException;
 
-
 public class Hooks extends Utility {
+
     @Before
     public void setUp(){
         selectBrowser(PropertyReader.getInstance().getProperty("browser"));
@@ -28,5 +28,4 @@ public class Hooks extends Utility {
         }
         closeBrowser();
     }
-
 }

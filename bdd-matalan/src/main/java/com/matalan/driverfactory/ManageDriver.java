@@ -1,6 +1,6 @@
-package com.amazon.driverfactory;
+package com.matalan.driverfactory;
 
-import com.amazon.propertyreader.PropertyReader;
+import com.matalan.propertyreader.PropertyReader;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;

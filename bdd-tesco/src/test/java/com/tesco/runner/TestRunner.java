@@ -22,7 +22,7 @@ public class TestRunner {
     @AfterClass
     public static void setUp() {
         String projectPath = System.getProperty("user.dir");
-        String reportConfigPath = projectPath + "src/test/java/resources/propertiesfile/config.properties";
+        String reportConfigPath = projectPath + "/src/test/java/resources/propertiesfile/config.properties";
         Reporter.loadXMLConfig(reportConfigPath);
         Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
         Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));

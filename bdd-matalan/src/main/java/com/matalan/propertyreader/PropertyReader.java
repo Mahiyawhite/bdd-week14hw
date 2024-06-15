@@ -1,11 +1,11 @@
-package com.amazon.propertyreader;
+package com.matalan.propertyreader;
 
 import java.io.FileInputStream;
 import java.util.Properties;
 
 public class PropertyReader {
 
-    /*
+     /*
     Rules for implementing singleton design pattern
     1. Make the constructor private
     2. Create a static method to get the instance

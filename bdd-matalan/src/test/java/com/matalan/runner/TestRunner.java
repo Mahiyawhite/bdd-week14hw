@@ -1,4 +1,4 @@
-package com.amazon.runner;
+package com.matalan.runner;
 
 
 import com.cucumber.listener.Reporter;
@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/resources/featuresfile", // change your feature file path from package
-        glue = "com/amazon", // select step defination path from parent directory
+        glue = "com/matalan", // select step defination path from parent directory
         plugin = {"pretty",
                 "html:target/cucumber-report/cucumber.html",
                 "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
@@ -31,5 +31,4 @@ public class TestRunner {
         Reporter.setSystemInfo("Maven", "3.9");
         Reporter.setSystemInfo("Java Version", "17");
     }
-
 }

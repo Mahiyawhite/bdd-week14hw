@@ -1,6 +1,6 @@
-Feature: Asda homepage
+Feature: matalan homepage
 
-  Scenario: Open asda home page and verify title
+  Scenario: Open matalan home page and verify title
     Given I am on homepage
     And I click on cookie
     Then I should see the title
